@@ -1,0 +1,62 @@
+{
+    "request": {
+        "after": "SiteTree_0"
+    },
+
+    "items": [
+        {
+            "body": "<h1>Single Document Example</h1>\n\n<p>Single document body content</p>",
+
+            "metadata": {
+                "source": {
+                    "unique_id": "SiteTree_1"
+                },
+
+                "asset": {
+                    "Title": "Single Document Example",
+                    "CanonicalURL": "https://www.example.com/single-page-example",
+                    "Created": "2017-03-01T15:12:59+00:00",
+                    "LastEdited": "2017-03-30T23:12:22+00:00",
+                    "AuthorName": "FirstName Surname",
+                    "IconSmall": "data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3Asketch%3D%22http%3A%2F%2Fwww.bohemiancoding.com%2Fsketch%2Fns%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2040%20400%22%20enable-background%3D%22new%200%200%2040%2040%22%20xml%3Aspace%3D%22preserve%22%20width%3D%2240px%22%20height%3D%22400px%22%3E%3Cpath%20id%3D%22a%22%20sketch%3Atype%3D%22MSShapeGroup%22%20d%3D%22M15.5%2C28c-0.6%2C0-0.9-0.4-0.8-1l1.5-8h3.3v9H15.5z%20M24.5%2C28%20c0.5%2C0%2C0.9-0.4%2C0.8-1l-1.5-8h-3.3v9H24.5z%20M19.5%2C12h-1c-0.6%2C0-1.1%2C0.4-1.2%2C1l-0.4%2C2h2.6V12L19.5%2C12z%20M30.5%2C18v-2h-21v2h2v2h2v-2h13%20v2h2v-2H30.5z%20M20.5%2C12h1c0.6%2C0%2C1.1%2C0.4%2C1.2%2C1l0.4%2C2h-2.6V12L20.5%2C12L20.5%2C12z%22%3E%3C%2Fpath%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%2240%22%20fill%3D%22%23ffffff%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%2280%22%20fill%3D%22%23236FA6%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22120%22%20fill%3D%22%23005685%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22160%22%20fill%3D%22%236b6a6a%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22200%22%20fill%3D%22%23454444%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22240%22%20fill%3D%22%23959FA6%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22280%22%20fill%3D%22%2359B359%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22320%22%20fill%3D%22%23FFA217%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22360%22%20fill%3D%22%23CA4142%22%3E%3C%2Fuse%3E%3C%2Fsvg%3E",
+                    "IconLarge": "data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3Asketch%3D%22http%3A%2F%2Fwww.bohemiancoding.com%2Fsketch%2Fns%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2040%20400%22%20enable-background%3D%22new%200%200%2040%2040%22%20xml%3Aspace%3D%22preserve%22%20width%3D%2240px%22%20height%3D%22400px%22%3E%3Cpath%20id%3D%22a%22%20sketch%3Atype%3D%22MSShapeGroup%22%20d%3D%22M15.5%2C28c-0.6%2C0-0.9-0.4-0.8-1l1.5-8h3.3v9H15.5z%20M24.5%2C28%20c0.5%2C0%2C0.9-0.4%2C0.8-1l-1.5-8h-3.3v9H24.5z%20M19.5%2C12h-1c-0.6%2C0-1.1%2C0.4-1.2%2C1l-0.4%2C2h2.6V12L19.5%2C12z%20M30.5%2C18v-2h-21v2h2v2h2v-2h13%20v2h2v-2H30.5z%20M20.5%2C12h1c0.6%2C0%2C1.1%2C0.4%2C1.2%2C1l0.4%2C2h-2.6V12L20.5%2C12L20.5%2C12z%22%3E%3C%2Fpath%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%2240%22%20fill%3D%22%23ffffff%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%2280%22%20fill%3D%22%23236FA6%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22120%22%20fill%3D%22%23005685%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22160%22%20fill%3D%22%236b6a6a%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22200%22%20fill%3D%22%23454444%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22240%22%20fill%3D%22%23959FA6%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22280%22%20fill%3D%22%2359B359%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22320%22%20fill%3D%22%23FFA217%22%3E%3C%2Fuse%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20y%3D%22360%22%20fill%3D%22%23CA4142%22%3E%3C%2Fuse%3E%3C%2Fsvg%3E",
+                    "DocumentTags": [
+                        "tag1",
+                        "tag2",
+                        "tag3"
+                    ]
+                }
+            },
+
+            "acl": {
+                "users": [
+                    {
+                        "id": "A12981",
+                        "source": "OKTA",
+                        "permissions": [
+                            "view"
+                        ]
+                    }
+                ],
+
+                "groups": [
+                    {
+                        "id": "G1233",
+                        "source": "ACTIVE_DIRECTORY",
+                        "permissions": [
+                            "view"
+                        ]
+                    },
+
+                    {
+                        "id": "B12345",
+                        "source": "ACTIVE_DIRECTORY",
+                        "permissions": [
+                            "view"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "madmatt/silverstripe-syl-metadata-format",
+    "description": "Metadata format used by SilverStripe when providing documents to Syl Search.",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=7.1",
+        "league/json-guard": "^0.5",
+        "phpunit/phpunit": "^6.0"
+    },
+    "scripts": {
+      "test": "vendor/bin/phpunit"
+    }
+}

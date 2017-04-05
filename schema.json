@@ -1,0 +1,148 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "items": {
+            "id": "/properties/items",
+            "items": {
+                "id": "/properties/items/items",
+                "properties": {
+                    "acl": {
+                        "id": "/properties/items/items/properties/acl",
+                        "properties": {
+                            "groups": {
+                                "id": "/properties/items/items/properties/acl/properties/groups",
+                                "items": {
+                                    "id": "/properties/items/items/properties/acl/properties/groups/items",
+                                    "properties": {
+                                        "id": {
+                                            "id": "/properties/items/items/properties/acl/properties/groups/items/properties/id",
+                                            "type": "string"
+                                        },
+                                        "permissions": {
+                                            "id": "/properties/items/items/properties/acl/properties/groups/items/properties/permissions",
+                                            "items": {
+                                                "id": "/properties/items/items/properties/acl/properties/groups/items/properties/permissions/items",
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        "source": {
+                                            "id": "/properties/items/items/properties/acl/properties/groups/items/properties/source",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            },
+                            "users": {
+                                "id": "/properties/items/items/properties/acl/properties/users",
+                                "items": {
+                                    "id": "/properties/items/items/properties/acl/properties/users/items",
+                                    "properties": {
+                                        "id": {
+                                            "id": "/properties/items/items/properties/acl/properties/users/items/properties/id",
+                                            "type": "string"
+                                        },
+                                        "permissions": {
+                                            "id": "/properties/items/items/properties/acl/properties/users/items/properties/permissions",
+                                            "items": {
+                                                "id": "/properties/items/items/properties/acl/properties/users/items/properties/permissions/items",
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        "source": {
+                                            "id": "/properties/items/items/properties/acl/properties/users/items/properties/source",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "body": {
+                        "id": "/properties/items/items/properties/body",
+                        "type": "string"
+                    },
+                    "metadata": {
+                        "id": "/properties/items/items/properties/metadata",
+                        "properties": {
+                            "asset": {
+                                "id": "/properties/items/items/properties/metadata/properties/asset",
+                                "properties": {
+                                    "AuthorName": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/AuthorName",
+                                        "type": "string"
+                                    },
+                                    "CanonicalURL": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/CanonicalURL",
+                                        "type": "string"
+                                    },
+                                    "Created": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/Created",
+                                        "type": "string"
+                                    },
+                                    "DocumentTags": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/DocumentTags",
+                                        "items": {
+                                            "id": "/properties/items/items/properties/metadata/properties/asset/properties/DocumentTags/items",
+                                            "type": "string"
+                                        },
+                                        "type": "array"
+                                    },
+                                    "IconLarge": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/IconLarge",
+                                        "type": "string"
+                                    },
+                                    "IconSmall": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/IconSmall",
+                                        "type": "string"
+                                    },
+                                    "LastEdited": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/LastEdited",
+                                        "type": "string"
+                                    },
+                                    "Title": {
+                                        "id": "/properties/items/items/properties/metadata/properties/asset/properties/Title",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "source": {
+                                "id": "/properties/items/items/properties/metadata/properties/source",
+                                "properties": {
+                                    "unique_id": {
+                                        "id": "/properties/items/items/properties/metadata/properties/source/properties/unique_id",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "request": {
+            "id": "/properties/request",
+            "properties": {
+                "after": {
+                    "id": "/properties/request/properties/after",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}
